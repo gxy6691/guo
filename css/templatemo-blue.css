@@ -43,9 +43,10 @@ h2 {
 }
 
 .accent {
-	font-family: 'Proxima Bold';
+	font-family: "微软雅黑";
 	line-height: 14px;
 	color: #60A9F0;
+	font-size: 20px;
 }
 
 .bold {
@@ -373,4 +374,13 @@ footer {
 	.experience h4 {
 		font-size: 20px;
 	}
+}
+
+.about ul {
+	list-style: none;
+}
+
+.about ul li {
+	display: inline-block;
+	padding: 2px 5px;
 }
