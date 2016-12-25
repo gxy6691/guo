@@ -131,7 +131,7 @@ h2 {
 }
 
 .sk-spinner-wordpress.sk-spinner {
-	background-color: rgba(51,102,204,.7);
+	background-color: rgb(51,102,204);
 	width: 30px;
 	height: 30px;
 	border-radius: 30px;
