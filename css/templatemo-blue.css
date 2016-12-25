@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 26px;
 }
 
 h3 {
@@ -54,7 +54,7 @@ h2 {
 
 .tm-border {
 	border: 5px solid #fff;
-	box-shadow: 2px 2px #000;
+	/*box-shadow: 2px 2px #000;*/
 }
 
 .shadow {
@@ -62,7 +62,14 @@ h2 {
 }
 
 .tm-title {
-	color: #1AA4FF;
+	/*color: #1AA4FF;*/
+	color: white;
+	font-size: 24px;
+}
+
+.tm-subtitle {
+	color: #FFFFFF;
+	font-size: 20px;;
 }
 
 .white {
@@ -79,9 +86,9 @@ h2 {
 	min-height: 330px;
 }
 
-.education,
+.skills,
 .languages,
-.contact,
+.about,
 .experience {
 	margin-top: 30px;
 }
@@ -250,6 +257,12 @@ header hr {
 	padding-left: 20px;
 }
 
+.education-description {
+	text-indent: 2em;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+
 
 /* languages section */
 
@@ -263,7 +276,7 @@ header hr {
 }
 
 .languages ul li {
-	padding-bottom: 6px;
+	padding-bottom: 16px;
 }
 
 
