@@ -10,10 +10,10 @@ $(window).load(function(){
 $(function(){
     jQuery(document).ready(function() {
 		$('body').backstretch([
-	 		 "images/10.jpg", 
-	 		 "images/05.jpg",
-			 "images/06.jpg",
-			 "images/07.jpg"
+	 		 "images/12.jpg", 
+	 		 "images/15.jpg",
+	 		 "images/16.jpg",
+
 	 			], 	{duration: 3200, fade: 1300});
 		});
 })

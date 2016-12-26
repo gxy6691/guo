@@ -45,8 +45,12 @@ h2 {
 .accent {
 	font-family: "微软雅黑";
 	line-height: 14px;
-	color: #60A9F0;
+	color: #000;
 	font-size: 20px;
+}
+
+.about a:hover{
+	color: #FFFFFF;
 }
 
 .bold {
