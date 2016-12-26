@@ -388,6 +388,7 @@ footer {
 }
 
 .about ul li img {
+	border-radius: 5px;
 	position: absolute;
 	top: 25px;
 	left: -45px;
