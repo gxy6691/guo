@@ -49,10 +49,6 @@ h2 {
 	font-size: 20px;
 }
 
-.about a:hover{
-	color: #FFFFFF;
-}
-
 .bold {
 	font-weight: bold;
 }
@@ -74,7 +70,8 @@ h2 {
 
 .tm-subtitle {
 	color: #FFFFFF;
-	font-size: 20px;;
+	font-size: 20px;
+	;
 }
 
 .white {
@@ -143,7 +140,7 @@ h2 {
 }
 
 .sk-spinner-wordpress.sk-spinner {
-	background-color: rgb(51,102,204);
+	background-color: rgb(51, 102, 204);
 	width: 30px;
 	height: 30px;
 	border-radius: 30px;
@@ -206,7 +203,7 @@ header h2 {
 }
 
 header hr {
-	border-color: rgba(51,102,204,.7);
+	border-color: rgba(51, 102, 204, .7);
 	width: 100px;
 }
 
@@ -222,7 +219,7 @@ header hr {
 /* skills section */
 
 .skills {
-	background: rgba(51,102,204,.7);
+	background: rgba(51, 102, 204, .7);
 	color: #f5f5f5;
 }
 
@@ -245,7 +242,7 @@ header hr {
 /* education section */
 
 .education {
-	background: rgba(51,102,204,.7);
+	background: rgba(51, 102, 204, .7);
 	color: #f5f5f5;
 }
 
@@ -272,7 +269,7 @@ header hr {
 /* languages section */
 
 .languages {
-	background: rgba(255,255,255,.7);
+	background: rgba(255, 255, 255, .7);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
 }
 
@@ -288,7 +285,7 @@ header hr {
 /* contact section */
 
 .contact {
-	background: rgba(255,255,255,.7);
+	background: rgba(255, 255, 255, .7);
 	box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
 }
 
@@ -341,7 +338,7 @@ footer {
 }
 
 .social-icons li a {
-	background: rgba(51,102,204,.7);
+	background: rgba(51, 102, 204, .7);
 	border-radius: 50%;
 	color: #fff;
 	text-decoration: none;
@@ -387,4 +384,21 @@ footer {
 .about ul li {
 	display: inline-block;
 	padding: 2px 5px;
+	position: relative;
+}
+
+.about ul li img {
+	position: absolute;
+	top: 25px;
+	left: -45px;
+	display: none;
+}
+
+.about li:hover a {
+	color: #FFFFFF;
+}
+
+.about li:hover img {
+	display: block;
+	z-index: 10;
 }
